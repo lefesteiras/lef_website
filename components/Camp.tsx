@@ -10,7 +10,7 @@ interface CampProps {
 
 const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps) => {
   return (
-    <div style={{background: `url('${backgroundImage}')`}}
+    <div style={{background: `url('${backgroundImage}')`, backgroundRepeat: 'no-repeat', margin: 'auto'}}
       className={`h-full w-full min-w-[1100px] drop-shadow-md  bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
      <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 ">
       <div className="flexCenter gap-4">
@@ -58,12 +58,12 @@ const Camp = () => {
           subtitle=""
           peopleJoined="50+ Joined"
         />
-        <CampSite 
+        {/* <CampSite 
           backgroundImage="/sparkingbold.jpg"
           title="Produção"
           subtitle="Processo bem definido"
           peopleJoined="50+ Joined"
-        />
+        /> */}
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">

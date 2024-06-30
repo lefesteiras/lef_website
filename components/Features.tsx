@@ -12,7 +12,7 @@ const Features = () => {
             alt="phone"
             width={440}
             height={1500}
-            className="feature-phone shadow-lg ml-20 drop-shadow-sm"
+            className="feature-phone shadow-lg ml-8 drop-shadow-sm"
           />
         </div>
 
