@@ -16,7 +16,7 @@ const GetApp = () => {
               >
               <Button
                 type="button"
-                title="Responderemos o mais rápído possível!"
+                title="Estamos à disposição!"
                 icon="/whatsapp.png"
                 variant="btn_white"
                 full

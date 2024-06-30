@@ -6,9 +6,7 @@ import Button from "./Button"
 const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container fixed top-0 z-30 py-5">
-      <Link href="/">
-        <Image src="/file.png" alt="logo" width={100} height={50} />
-      </Link>
+    
 
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
