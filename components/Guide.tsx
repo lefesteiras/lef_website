@@ -4,7 +4,7 @@ import React from 'react'
 const Guide = () => {
   return (
     <section className="flexCenter flex-col">
-      <div className="padding-container max-container w-full pb-24">
+      <div className="padding-container max-container w-[90%] pb-24">
         {/* <Image src="/camp.svg" alt="camp" width={50} height={50} /> */}
         <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
           Sobre nós
@@ -17,13 +17,12 @@ const Guide = () => {
         </div>
       </div>
 
-      <div className="flexCenter h-[1000px] drop-shadow-lg rounded-5xl overflow-hidden max-container relative w-full">
+      <div className="flexCenter h-[900px] drop-shadow-lg rounded-5xl overflow-hidden max-container relative w-[90%]">
             <img 
               src="/producao.jpg"
               alt="boat"
-              width={1440}
-              height={580}
-              className="w-full object-cover object-center rounded-5xl"
+            
+              className="w-full h-full object-cover object-center rounded-5xl"
             />
             <div className='overlay absolute w-full h-full bg-black/40'>
 
