@@ -21,7 +21,6 @@ const Guide = () => {
             <img 
               src="/producao.jpg"
               alt="boat"
-            
               className="w-full h-full object-cover object-center rounded-5xl"
             />
             <div className='overlay absolute w-full h-full bg-black/40'>

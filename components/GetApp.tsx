@@ -5,8 +5,8 @@ import Image from 'next/image'
 const GetApp = () => {
   return (
     <section className="flexCenter w-full flex-col pb-[100px]">
-      <div className="get-app">
-        <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12">
+      <div className="get-app rounded-5xl">
+        <div className="z-20 flex w-full flex-1 flex-col items-start justify-center gap-12 rounded-5xl">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">Peça seu Orçamento!</h2>
           <p className="regular-16 text-gray-10">Horário de funcionamento: 9:00 - 18:00</p>
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">

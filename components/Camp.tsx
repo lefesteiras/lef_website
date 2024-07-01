@@ -16,7 +16,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
         backgroundSize: 'cover',
          margin: 'auto',
           }}
-      className={`h-full w-[90%] drop-shadow-md lg:rounded-r-5xl 2xl:rounded-5xl border-2`}>
+      className={`h-full w-[90%] drop-shadow-md rounded-5xl border-2`}>
      <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 ">
       <div className="flexCenter">
         <div className="rounded-full bg-green-50 p-4">
