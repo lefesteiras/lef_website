@@ -5,9 +5,7 @@ import Button from "./Button"
 
 const Navbar = () => {
   return (
-    <nav className="flexBetween max-container padding-container fixed top-0 z-30 py-5">
-    
-
+    <nav className="flexBetween drop-shadow-sm padding-container fixed top-0 z-30 py-5 bg-white w-full">
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
           <Link href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">

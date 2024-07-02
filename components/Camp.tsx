@@ -16,8 +16,8 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
         backgroundSize: 'cover',
          margin: 'auto',
           }}
-      className={`h-full w-[90%] drop-shadow-md rounded-5xl border-2`}>
-     <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 ">
+      className={`h-full w-[90%] drop-shadow-md rounded-5xl border-2 z-20`}>
+     <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
       <div className="flexCenter">
         <div className="rounded-full bg-green-50 p-4">
           <Image
@@ -27,7 +27,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
             height={28}
           />
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 z-30">
           <h4 className="bold-18 text-white">{title}</h4>
           <p className="regular-14 text-white">{subtitle}</p>
         </div>
@@ -72,7 +72,7 @@ const Camp = () => {
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
-        <div className="bg-green-50 shadow-lg p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+        <div className="bg-green-50 z-30 shadow-lg p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
             <strong>Quer Conhecer nossa Unidade?</strong> Agende uma visita!
           </h2>
