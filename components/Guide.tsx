@@ -10,7 +10,7 @@ const Guide = () => {
           Sobre nós
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">3 anos de história</h2>
+          <h2 className="text-5xl font-semibold">20 anos de história com 3 anos em novas instalações</h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
             Bem-vindo à nossa fábrica de esteiras e telas metálicas, onde combinamos inovação, qualidade e excelência em cada produto que fabricamos. Com anos de experiência no mercado, nos especializamos na produção de soluções personalizadas para diversos setores industriais, atendendo às necessidades específicas de cada cliente com precisão e dedicação.
           </p>

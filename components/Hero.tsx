@@ -26,20 +26,10 @@ const Hero = () => {
 
         <div className="my-11 translate-y-[-4rem] flex flex-wrap gap-5 z-10">
           <div className="flex items-center gap-2 z-10">
-            {Array(5).fill(1).map((_, index) => (
-              <Image 
-                src="/star.svg"
-                key={index}
-                alt="star"
-                width={24}
-                height={24}
-              />
-            ))}
+           
           </div>
 
-          <p className="bold-16 lg:bold-20  z-10">
-            <span className="font-semibold  ml-1 text-gray-800">Excelentes Avaliações</span>
-          </p>
+         
         </div>
 
         <div className="translate-y-[-4rem] flex justify-center items-center  w-full sm:flex-row z-10">

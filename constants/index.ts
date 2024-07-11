@@ -85,7 +85,6 @@ export const FOOTER_LINKS = [
 export const SOCIALS = {
   title: 'Social',
   links: [
-    '/facebook.svg',
     '/instagram.svg'
   ],
 };

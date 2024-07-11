@@ -15,11 +15,11 @@ const Footer = () => {
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title}>
-                <ul className="regular-14 flex flex-col gap-4 text-gray-30">
+                <ul className="regular-14 flex flex-col items-start gap-4 text-gray-30">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
+                    <button>
                       {link}
-                    </Link>
+                    </button>
                   ))}
                 </ul>
               </FooterColumn>
@@ -48,9 +48,9 @@ const Footer = () => {
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
                   {SOCIALS.links.map((link) => (
-                    <Link href="/" key={link}>
+                    <a target='blank' href="https://www.instagram.com/lef.ltda" key={link}>
                       <Image src={link} alt="logo" width={24} height={24} />
-                    </Link>
+                    </a>
                   ))}
                 </ul>
               </FooterColumn>
