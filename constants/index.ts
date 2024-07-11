@@ -16,11 +16,11 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Transportadores",
-    icon: "https://www.highsolutions.com.br/wp-content/uploads/2018/06/transportadores-industriais.jpg",
+    title: "Esteiras / Segmento Chapa",
+    icon: "/chapa.jpg",
     variant: "green",
     description:
-      "Transportadores são máquinas industriais que auxiliam na automatização de processos industriais. São usados na movimentação de materiais e insumos, agilizando e automatizando processos específicos. A Manufios possui estrutura completa para projetar e fabricar transportadores para qualquer segmento de mercado, desenvolvendo soluções personalizadas e únicas, que facilitam processos industriais de repetição e auxiliam na economia de custos e no aumento da produtividade.",
+      "Também conhecidas como Esteiras de taliscas. Aplicadas em processos de desidratação/secagem.Indicadas para grandes volumes de produção. Demandadas ainda para transportes de cavacos de usinagem e peças quentes em forjarias e fundições. Estamos capacitados para atender diversas especificações técnicas como: área aberta, espessuras de lâminas, larguras e comprimentos diversos.",
   },
   {
     title: "Esteiras Transportadoras",
