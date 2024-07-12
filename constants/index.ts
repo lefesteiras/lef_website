@@ -17,7 +17,7 @@ export const PEOPLE_URL = [
 export const FEATURES = [
   {
     title: "Esteiras / Segmento Chapa",
-    icon: "/chapa.jpg",
+    icon: "/esteirasSegmento.jpg",
     variant: "green",
     description:
       "Também conhecidas como Esteiras de taliscas. Aplicadas em processos de desidratação/secagem.Indicadas para grandes volumes de produção. Demandadas ainda para transportes de cavacos de usinagem e peças quentes em forjarias e fundições. Estamos capacitados para atender diversas especificações técnicas como: área aberta, espessuras de lâminas, larguras e comprimentos diversos.",
@@ -55,7 +55,7 @@ export const FEATURES = [
     icon: "https://www.teciam.com.br/files/upload/057a7eeaf273a9010e4ef1acb68f4b04.jpg",
     variant: "orange",
     description:
-      "Telas de fios ondulados e trançados perpendicularmente, com liga em Alto Teor de Carbono (SAE-1060) de excelente durabilidade. Com acabamentos laterais em ganchos, capa em chapa, cantoneira e simples (lisa).",
+      "Telas de fios ondulados e trançados perpendicularmente, com liga em Alto Teor de Carbono (SAE 1020 até 1045) de excelente durabilidade. Com acabamentos laterais em ganchos, capa em chapa, cantoneira e simples (lisa).",
   },
 ];
 
